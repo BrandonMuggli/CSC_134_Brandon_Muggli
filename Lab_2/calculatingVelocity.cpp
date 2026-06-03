@@ -28,4 +28,6 @@ int main(){
 
     //print the result to the console
     cout<< "The average velocity is " <<result<< " miles per hour";
+    
+    return 0;
 }

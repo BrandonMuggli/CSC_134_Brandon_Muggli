@@ -27,4 +27,6 @@ int main(){
 
     // print the result to the console
     cout<< "The voltage of the circuit is " <<result<< " volts";
+    
+    return 0;
 }

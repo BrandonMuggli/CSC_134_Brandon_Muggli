@@ -27,8 +27,6 @@ int main(){
 
     //print the result to the console
     cout<< "The force on the object is " <<result<< " newtons";
-
-
-
-
+    
+    return 0;
 }

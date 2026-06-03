@@ -27,4 +27,6 @@ int main(){
 
     //Print the result to the console
     cout<< "The distance traveled is " << result << " miles";
+
+    return 0;
 }
