@@ -35,4 +35,6 @@ main(){
     cout<< "Stan Lee             |  Hugh"<< endl;
     cout<< "Clark Gregg          |  Phil Coulson"<< endl;
     cout<< "Paul Bettany         |  J.A.R.V.I.S"<< endl;
+
+    return 0;
 }
