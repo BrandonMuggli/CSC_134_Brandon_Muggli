@@ -4,10 +4,10 @@
 @purpose: this program calculates the square footage of a house and prints the result to the console with the correct units
 */
 
-//incluce the iostream library for input/output and cmath for operations
+// include the iostream library for input/output and cmath for operations
 #include <iostream>
 #include <cmath>
-//use the standard namespace to avoid having to type std:: before every standard library function
+// use the standard namespace to avoid having to type std:: before every standard library function
 using namespace std;
 
 int main(){

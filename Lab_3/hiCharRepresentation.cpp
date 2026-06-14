@@ -4,9 +4,9 @@
 @purpose: this program prints Hi! to the console using character representations instead of using a literal string
 */
 
-//incluce the iostream library for input/output
+// include the iostream library for input/output
 #include <iostream>
-//use the standard namespace to avoid having to type std:: before every standard library function
+// use the standard namespace to avoid having to type std:: before every standard library function
 using namespace std;
 
 int main(){

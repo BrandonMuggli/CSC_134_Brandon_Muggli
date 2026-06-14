@@ -4,9 +4,9 @@
 @purpose: This program calculates the volume of a sphere when given a radius
 */
 
-//incluce the iostream library for input/output
+// include the iostream library for input/output
 #include <iostream>
-//use the standard namespace to avoid having to type std:: before every standard library function
+// use the standard namespace to avoid having to type std:: before every standard library function
 using namespace std;
 
 int main(){
