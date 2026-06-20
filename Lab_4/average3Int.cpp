@@ -12,7 +12,7 @@ using namespace std;
 int main(){
     
     // create the variables needed for the program
-     float num1, num2, num3, res;
+     float num1 = 0.00, num2 = 0.00, num3 = 0.00, res = 0.00;
 
     // capture the first number and store it in the variable (num1)
     cout<<"Please enter an integer value: ";

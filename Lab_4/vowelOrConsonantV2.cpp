@@ -18,7 +18,7 @@ int main(){
     cout<<"Please enter a letter: "; 
     cin>> letter;
 
-    // use an if statement combined with the "or" operator (||) containing uppercase and lowercase vowels to output the desired message
+    // use an if statement combined with the OR operator (||) containing uppercase and lowercase vowels to output the desired message
     if (letter == 'a' || letter == 'A' || 
         letter == 'e' || letter == 'E' ||
         letter == 'i' || letter == 'I' ||
@@ -27,7 +27,7 @@ int main(){
         letter == 'y' || letter == 'Y' )
         {cout<<"The letter is a vowel";}
 
-    // use an if-else statement combined with the "or" operator (||) containing uppercase and lowercase consonants to output the desired message
+    // use an if-else statement combined with the OR operator (||) containing uppercase and lowercase consonants to output the desired message
     else if (letter == 'b' || letter == 'B' ||
              letter == 'c' || letter == 'C' ||
              letter == 'd' || letter == 'D' ||

@@ -18,11 +18,14 @@ int main(){
     cout<<"Please enter an integer value: ";
     cin>> num1;
 
-    // create if/else statements to obtain the correct output
-    // use modulus operator to determine even/odd
-    if (num1 % 2 == 0){
-        cout<<"The integer value you have entered is even!";}
-    else cout<<"The integer value you have entered is odd!";
+    // create if/else statement to obtain the correct output
+    // use modulus operator to determine if there is a remainder when the input is halved. remainder=odd, no remainder=even
+    if
+        (num1 % 2 == 0)
+        {cout<<"The integer value you have entered is even!";}
+    
+    else
+        cout<<"The integer value you have entered is odd!";
 
     return 0;
 }
