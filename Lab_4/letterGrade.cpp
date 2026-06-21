@@ -29,12 +29,12 @@ int main(){
     // perform the average calculation and store the result in the variable (res)
     res = (num1 + num2 + num3)/3.00;
 
-    // create nested if statements to create a sequential checklist
-    // use else statements to output correct message to the console
-    if (res >= 60){
-        if (res >= 70){
-            if (res >= 80){
-                if (res >= 90){
+    // Nest IF statements to create a sequential checklist for more than one condition
+    // use ELSE statements to output correct message to the console
+        if (res >= 60){
+            if (res >= 70){
+                if (res >= 80){
+                    if (res >= 90){
                     cout<<"Your letter grade is an A";}
                 else cout<<"Your letter grade is a B";}
             else cout<<"Your letter grade is a C";}
