@@ -18,12 +18,12 @@ int main(){
     cout<<"Enter a year to find out if it is a leap year: ";
     cin>> yr;
 
-    // create an if statement to check the first qualifying condition and output "is a leap year" to the terminal (if qualifying conditions are met)
+    // create an IF statement to check the first qualifying condition and output "is a leap year" to the terminal (if qualifying conditions are met)
     if 
         (yr % 400 == 0)
         {cout<<"The year " <<yr <<" is a leap year";}
 
-    // use an else if statement to check the second qualifying condition and output "is a leap year" to the terminal (if qualifying conditions are met)
+    // use an ELSE/IF statement to check the second qualifying condition and output "is a leap year" to the terminal (if qualifying conditions are met)
     // use AND operator (&&) to make sure both conditions are applied to the variable (yr)
     else 
         if (yr % 4 == 0 && yr % 100 != 0)

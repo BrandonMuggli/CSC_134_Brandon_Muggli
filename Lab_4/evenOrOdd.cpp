@@ -19,7 +19,7 @@ int main(){
     cin>> num1;
 
     // use IF/ELSE statement to obtain the correct even/odd output
-    // use modulus operator (%) to determine if there is a remainder when the input is halved. remainder=odd, no remainder=even
+    // use MODULUS operator (%) to determine if there is a remainder when the input is halved. remainder=odd, no remainder=even
     if
         (num1 % 2 == 0)
         {cout<<"The integer value you have entered is even!";}
