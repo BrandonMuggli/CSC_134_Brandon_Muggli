@@ -29,8 +29,8 @@ int main(){
         if (yr % 4 == 0 && yr % 100 != 0)
         {cout<<"The year " <<yr <<" is a leap year";}
 
-    // use an else statement to output "not a leap year" statement
-    else 
+    // use an ELSE statement to output "not a leap year" statement when the above conditions are not met
+        else 
         cout<<"The year " <<yr <<" is not a leap year";
 
     return 0;
