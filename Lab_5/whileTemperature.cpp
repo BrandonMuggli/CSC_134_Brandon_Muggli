@@ -11,4 +11,19 @@ using namespace std;
 
 int main(){
     
+    // create a variable 
+    double temp = 0.00;
+
+    // use a while statement to prompt for a temperature 
+    while (temp != 212.34)
+    {
+        // collect a value and store it in the variable (temp)
+        cout<<"Please enter a temperature: ";
+        cin>> temp;
+    }
+    
+    // output success message when desired number has been entered
+    cout<<"The temperature has been successfully set, thank you.";
+
+    return 0;
 }

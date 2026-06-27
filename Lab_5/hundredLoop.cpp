@@ -11,4 +11,20 @@ using namespace std;
 
 int main(){
     
+    // create a variable to be used in the while loop
+    int num = 0;
+
+    // use a while loop to create a 100-iteration loop
+    while (num != 100)
+    {
+        // increase the count by 1 using the increment operator (++) in postfix mode
+        num++;
+
+        // output current iteration on its own line
+        cout<<" This is iteration " <<num <<endl;
+    }
+
+    cout<<"The number of iterations reached is " <<num;
+
+    return 0;
 }
