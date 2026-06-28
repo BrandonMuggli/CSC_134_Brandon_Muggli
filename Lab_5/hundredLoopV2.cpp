@@ -17,8 +17,8 @@ int main(){
     // use a while loop to create a 100-iteration loop
     while (num != 100)
     {
-        // increase the count by 1 using the increment operator (++) in postfix mode
-        num++;
+        // increase the count by 1 using the increment operator (++) in prefix mode
+        ++num;
 
         // output current iteration on its own line
         cout<<" This is iteration " <<num <<endl;
