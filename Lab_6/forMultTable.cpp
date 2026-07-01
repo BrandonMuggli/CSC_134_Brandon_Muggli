@@ -24,7 +24,7 @@ int main(){
     cout<<"-------------------------\n";
 
     // create a for-loop to run the collected number through 12 iterations
-    for(int ver = 0; ver <= 12; ver++)
+    for (int ver = 0; ver <= 12; ver++)
     {
         cout<<num <<" times " <<ver <<" is " << num * ver <<endl; // display each result on a new line 
     }
