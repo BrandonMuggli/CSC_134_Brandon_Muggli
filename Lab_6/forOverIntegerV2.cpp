@@ -21,7 +21,7 @@ int main(){
 
     for (int ver = 0; ver < num; ver++) // initialise an iteration variable and loop until it is no longer less than the value of (num)
     {
-        cout<<"Iteration: " <<ver <<endl; // outputs the current iteration to the console 
+        cout<<"Iteration: " <<count <<endl; // outputs the current iteration to the console 
         count++; // increments the counter using postfix mode 
     }
 
