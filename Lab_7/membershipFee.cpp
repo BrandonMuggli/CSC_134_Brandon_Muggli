@@ -1,6 +1,6 @@
 /*
 @author: Brandon Muggli
-@date: 06/30/26
+@date: 07/11/26
 @purpose: This program calculates a 6% yearly increase to a country club menbership and displays the results to the console
 */
 

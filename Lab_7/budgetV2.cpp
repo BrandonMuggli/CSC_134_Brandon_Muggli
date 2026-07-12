@@ -1,6 +1,6 @@
 /*
 @author: Brandon Muggli
-@date: 06/30/26
+@date: 07/11/26
 @purpose: This program accepts a user-specified budget, propmts the user for expenses, and outputs the over/under expenses to the console
 */
 
