@@ -15,10 +15,10 @@ int main(){
     for (int row = 1; row <= 10; row++)
     {
        //create an inner loop to generate collumns
-       for (int col = 1; col <= 10; col++)
+       for (int col = 1; col <= 10; col++)   // initialise the counter variable (col) to 1
        {
-        cout<<"\t";             // use the operator (/t) to set the width between each number
-        cout<< (row * col);     // calculates the product of (a number on a row) * (a number on a collumn)
+        cout<<"\t";                          // use the operator (/t) to set the width between each number
+        cout<< (row * col);                  // calculates the product of (a number on a row) * (a number on a collumn)
        }
        
        // create new rows using the ("/n") operator

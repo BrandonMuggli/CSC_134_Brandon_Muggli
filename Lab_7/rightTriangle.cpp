@@ -19,12 +19,12 @@ int main(){
     cin>>userRow;
 
     // create an outer loop to generate rows
-    for (int row = 1; row <= userRow; row++)
+    for (int row = 1; row <= userRow; row++)   // initialize a counter variable (row) to 1
     {
         // create an inner loop to generate the collumns and print the proper number of (*) characters
-        for (int col = 1; col <= row; col++)
+        for (int col = 1; col <= row; col++)   // initialize a counter variable (col) to 1
         {
-            cout<<"*";
+            cout<<"*";                         // displays the proper character to the console 
         }
 
         // create new rows

@@ -19,10 +19,10 @@ int main(){
     cin>>userRow;
 
     // use an outer loop to generate rows
-    for (int row = 1; row <= userRow; row++)
+    for (int row = 1; row <= userRow; row++)      // initialize a counter variable (row) to 1 and increment using (++) in postfix mode
     {
         // use an inner loop to generate collumns
-        for (int col = 1; col <= userRow; col++)
+        for (int col = 1; col <= userRow; col++)  // initialize a counter variable (col) to 1 and increment using (++) in postfix mode
         {
             // use an IF/ELSE statement to output the correct format to the console
             if ((row + col) % 2 == 0)     // use the modulo operator to determine if the sum of (row) and (col) is even or odd

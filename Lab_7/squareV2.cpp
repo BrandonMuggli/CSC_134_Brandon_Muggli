@@ -20,10 +20,10 @@ int main(){
     cin>>sidelength;
 
     // use an outer loop to generate rows
-    for (int row = 1; row <= sidelength; row++)
+    for (int row = 1; row <= sidelength; row++)      // initialize a counter variable (row) to 1, and increment using (++) in postfix mode
     {
         // use an inner loop to generate collumns
-        for (int col = 1; col <= sidelength; col++)
+        for (int col = 1; col <= sidelength; col++)  // initialize a counter variable (col) to 1, and increment using (++) in postfix mode
         {
             cout<<setw(3);   // use (setw) function to set the space between each character (without this, the program generates more of a rectangle)
             cout<<"*";       // output the proper character for each row

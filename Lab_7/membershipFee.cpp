@@ -11,7 +11,7 @@ using namespace std;
 
 int main(){
 
-    // initialize a variable to store the starting membership cost and new cost
+    // initialize float variables to store the starting membership cost and new cost
     float initialCost = 250000.00;
     float newCost = 0.00;
     
