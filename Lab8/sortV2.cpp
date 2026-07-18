@@ -11,8 +11,9 @@ using namespace std;
 
 int main(){
 
-    // create the array given by the lab
+    // initialize a variable to hold the number of indicies in the array
     const int TOTAL_SIZE = 10;
+    // initialize the array given by the lab
     int numbers[TOTAL_SIZE] = {10,90,2,25,44,88,0,4};
 
     // use an outer loop and inner loop to sort the array
