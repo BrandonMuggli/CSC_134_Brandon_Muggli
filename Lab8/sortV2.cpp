@@ -1,6 +1,6 @@
 /*
 @author: Brandon Muggli
-@date: 07/15/26
+@date: 07/18/26
 @purpose: This program takes an unorganized array, sorts it, and displays the sorted list in ascending order. 
 */
 
