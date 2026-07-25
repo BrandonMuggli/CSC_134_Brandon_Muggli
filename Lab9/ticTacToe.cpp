@@ -13,14 +13,14 @@ using namespace std;
 int main(){
 
     // initialize variables for later use (these variables were created as needed, rather than at the start of the program)
-    string player1 = "X";
-    string player2 = "O";
-    bool gameStatus = false; // gameStatus allows the game to continue or end, false continues the game and true ends the game
-    int playerRow = 0;
-    int playerCol = 0;
-    int playerTurn = 0;
+    string player1 = "X";    // used to mark a selected spot in the array for player 1
+    string player2 = "O";    // used to mark a selected spot in the array for player 2
+    bool gameStatus = false; // gameStatus allows the game to start/continue or end, false continues the game and true ends the game
+    int playerRow = 0;       // used to select a specific row in the array
+    int playerCol = 0;       // use to select a specific collumn in the array
+    int playerTurn = 0;      // a counter used to keep trach of which lpayers turn it is
 
-    // initialize a 2-dimensional character array to hold game values
+    // initialize a 2-dimensional string array to hold game values
     string board[3][3]
     {"R0,C0","R0,C1","R0,C2","R1,C0","R1,C1","R1,C2","R2,C0","R2,C1","R2,C2"};
 
@@ -36,7 +36,8 @@ int main(){
     // use a while-loop to keep the game running until a player wins or a draw is reached
     while (!gameStatus)
     {
-        // use an if statement to output a draw message when (playerTurn) = 9 
+        // use an if statement to output a draw message when (playerTurn) = 9
+        // since (playerTurn) is initialized at 0, it will be turn #10 when (playerTurn) = 9 
         if(playerTurn == 9)
         {
             cout<<"The game has ended in a draw!" <<endl;
@@ -88,7 +89,6 @@ int main(){
                 {
                     cout<<"Player 1 has won the game!" <<endl;
                     gameStatus = true;
-                    //return 0;
                 }
             
         }
@@ -136,7 +136,6 @@ int main(){
                 {
                     cout<<"Player 2 has won the game!" <<endl;
                     gameStatus = true;
-                    //return 0;
                 }
         }
 
