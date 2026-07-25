@@ -4,7 +4,7 @@
 @purpose: This program allows two people to play a game of tic-tac-toe
 */
 
-// include the iostream library for input/output
+// include the iostream library for input/output and the string library for string functions
 #include <iostream>
 #include <string>
 // use the standard namespace to avoid having to type std:: before every standard library function
