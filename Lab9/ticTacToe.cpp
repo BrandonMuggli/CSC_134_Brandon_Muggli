@@ -18,7 +18,7 @@ int main(){
     bool gameStatus = false; // gameStatus allows the game to start/continue or end, false continues the game and true ends the game
     int playerRow = 0;       // used to select a specific row in the array
     int playerCol = 0;       // use to select a specific collumn in the array
-    int playerTurn = 0;      // a counter used to keep trach of which lpayers turn it is
+    int playerTurn = 0;      // a counter used to keep trach of which players turn it is
 
     // initialize a 2-dimensional string array to hold game values
     string board[3][3]
