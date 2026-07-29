@@ -27,7 +27,6 @@ int main(){
     // initialize program variables to store the number of days and the amount of each sale
     int days = 0;
     float sales = 0.00;
-    float totalSales = 0.00;
 
     // prompt the user for the number of days and store it in the variable (days)
     cout<<"How many days would you like to enter sales data for: ";

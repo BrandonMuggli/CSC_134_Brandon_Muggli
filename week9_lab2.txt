@@ -1,11 +1,10 @@
-Sales Over 6 days
+Sales Over 5 days
 ------------------
-Day 1: 50.00
-Day 2: 50.30
-Day 3: 2.13
-Day 4: 9.40
-Day 5: 200.00
-Day 6: 4.45
+Day 1: 35.00
+Day 2: 42.77
+Day 3: 20.00
+Day 4: 23.00
+Day 5: 2.10
 =====================
-Total Sales: $316.28
+Total Sales: $122.87
 =====================
