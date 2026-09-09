@@ -17,6 +17,9 @@ int main(){
     //create a file object
     fstream Fuel;
 
+    //name and open the file in output mode
+    Fuel.open("Fuel_Log.csv", ios :: app);
+
     //create variables to store data
     string equipment;
     float quantity = 0.00;
@@ -28,23 +31,34 @@ int main(){
     cin>>quantity;
 
     //get the current time from the system
+    auto now = std::chrono::system_clock::now();
+    std::time_t in_time_t = std::chrono::system_clock::to_time_t(now);
+
+    // Format into YYYY-MM-DD HH:MM:SS string
+    std::stringstream ss;
+    ss << std::put_time(std::localtime(&in_time_t), "%Y-%m-%d %H:%M:%S");
+
+    /*
     auto now = chrono::system_clock::now();
     time_t currentTime = std::chrono::system_clock::to_time_t(now);
     tm* localTime = localtime(&currentTime);
     put_time(localTime, "%Y-%m-%d %H:%M:%S"); 
+    */
+
+    //what about creating a variable to increase the list
 
 
-    //name and open the file in output mode
-    Fuel.open("Fuel_Log.csv", ios :: out);
+
 
     // import data into the csv file 
     Fuel<<equipment <<endl;
-    Fuel<<"Gallons,Date & Time \n";
-    Fuel<<quantity,localTime;
+    Fuel<<"Gallons" <<"," <<quantity <<endl;
+    Fuel<<"Date & Time" <<"," <<ss.str()  <<endl;
+    //Fuel<< "quantity,\"" << ss.str() <<endl;
     
     Fuel.close();
 
     //display the date and time
-    cout<<put_time(localTime, "%Y-%m-%d %H:%M:%S") ;
+    //cout<<put_time(localTime, "%Y-%m-%d %H:%M:%S") ;
     return 0;
 }
